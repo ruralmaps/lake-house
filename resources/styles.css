@@ -176,6 +176,9 @@ header {
    .card img {
     height: 300px;
    }
+   .owner-header {
+    font-size: 1.75rem;
+   }
    .contact h1 {
     font-size: 2.75rem;
    }
