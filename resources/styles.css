@@ -18,14 +18,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+@font-face {
+    font-family: "Merriweather Sans";
+    src: url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+}
+
 /* border: solid 1px red; */
 
 /* header section */
 header {
     display: flex;
     justify-content: center;
+    font-family: "Merriweather Sans";
     font-size: 4rem;
     padding: 2rem 0;  
+    color: #2E3830;
 
 }
 
@@ -33,9 +41,10 @@ header {
     display: flex;
     gap: 30%;
     justify-content: center;
+    font-family: "Merriweather Sans";
     font-size: 2rem;
     padding: 2rem 0;
-   
+    color: #2E3830;
     
 }
 
@@ -56,9 +65,11 @@ header {
 
 /* experience section*/
 .exp-header {
+    font-family: "Merriweather Sans";
     font-size: 3rem;
     text-align: center;
     margin-top: 4rem;
+    color: #2E3830;
 }
 .card-container {
     display: flex;
@@ -85,10 +96,60 @@ header {
     padding: 16px;
 }
 .card-content p {
+    font-family: "Merriweather Sans";
     font-size: 2rem;
     margin-bottom: 8px;
+    color: #2E3830;
 }
 
+/*owner section*/
+.owner-header {
+    font-family: "Merriweather Sans";
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #2E3830;
+}
+.owner-container {
+    display: flex;
+    height: 27.625rem;
+    width: auto;
+    overflow: hidden;
+}
+
+.owner-img {
+    width: 100%;
+    height: 27.625rem;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+/*footer section*/
+.contact {
+    padding-top: 4rem;
+    text-align: center;
+}
+.contact h1 {
+    font-family: "Merriweather Sans";
+    padding: 1rem;
+    font-size: 4rem;
+    color: #2E3830;
+}
+ .contact h2 {
+    font-family: "Merriweather Sans";
+    padding: 1rem;
+    font-size: 2rem;
+    color: #2E3830;
+ }
+ .copy {
+    font-family: "Merriweather Sans";
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    color: #D9D9D9;
+ }
 /* mq section */
 @media only screen and (max-width: 480px) {
     h1 {
@@ -114,5 +175,14 @@ header {
     }
    .card img {
     height: 300px;
+   }
+   .contact h1 {
+    font-size: 2.75rem;
+   }
+   .contact h2 {
+    font-size: 1rem;
+   }
+   .copy {
+    font-size: .50rem;
    }
 }
